@@ -1,0 +1,190 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+body{
+    margin:0;
+    background-color: #fff;
+}
+.navtop{
+    background-color: #3f69a8;
+    height: 60px;
+    width: 100%;
+    border:0;
+}
+.navtop div{
+    display: flex;
+    margin:0 auto;
+    height: 100%;
+    width: 100%;
+}
+.navtop div h1, .navtop div a{
+    display: inline-flex;
+    align-items: center;
+}
+.navtop div h1{
+    flex:1;
+    font-weight: bold;
+    color:#ecf0f6;
+    margin:0;
+    padding:0;
+    margin-left: 20px;
+}
+.navtop div a{
+    padding:0 20px;
+    text-decoration: none;
+    color:#c5d2e5;
+    font-weight: bold;
+}
+.navtop div a i{
+    padding: 2px 8px 0 0;
+}
+.navtop div a:hover{
+color:#ecf0f6;
+}
+.content{
+    width:80%;
+    margin:0 auto;
+}
+.content h2{
+    margin:0;
+    padding:25px 0;
+    border-bottom:1px dashed  #ebebeb;
+    color:#666;  
+}
+
+.content h3{
+    margin:0;
+    padding:25px 0;
+    font-size: small;
+    color:#000;  
+}
+
+.create table{
+    width: 100%;
+}
+.create form{
+    padding:15px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.create form label{
+display: inline-flex;
+width: 20%;
+padding:10px 0;
+margin-right: 25px;
+}
+.create form input{
+display: inline-flex;
+width: 60%;
+padding: 10px 0;
+margin-right: 25px;
+margin-bottom: 15px;
+border:1px solid #ccc;
+}
+.create form input[type="submit"]{
+display: block;
+background-color: #38b673;
+border:0;
+font-weight: bold;
+cursor:pointer;
+width: 200px;
+margin-top:15px;
+color:#fff;
+}
+.create form input[type="submit"]:hover{
+background-color: #32a367;
+}
+.read .create-contact{
+display: inline-block;
+background-color: #38b673;
+border:0;
+font-weight: bold;
+margin:15px 0;
+padding:10px 15px;
+color:#fff;
+text-decoration: none;
+}
+.read .create-contact:hover{
+    background-color:#32a367;
+}
+.read table{
+    width: 100%;
+    padding-top:30px;
+    border-collapse: collapse;
+}
+.read table thead{
+background-color: #ebeef1;
+border-bottom: 1px solid #d3dae0;
+}
+.read table thead td{
+padding:10px;
+font-weight: bold;
+color:#767779;
+}
+.read table tbody tr{
+    border-bottom: 1px solid #d3dae0;
+}
+.read table tbody tr:nth-child(even){
+background-color: #aaa;
+}
+.read table tbody tr:hover{
+    background-color:#376ab7;
+}
+.read table tbody tr:hover td:nth-child(1){
+color:#fff;
+}
+.read table tbody tr td{
+    padding:10px;
+}
+.read table tbody tr td.actions .edit, .read table tbody tr td.actions .delete{
+display:inline-flex;
+text-align: right;
+text-decoration: none;
+color:#fff;
+padding:10px 12px;
+}
+.read table tbody tr td.actions .delete{
+    background-color: #b73737;
+}
+.read table tbody tr td.actions .edit{
+    background-color:#32a367;
+}
+.read .pagination{
+    display: flex;
+    justify-content: flex-end;
+}
+.read .pagination a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #a5a7a9;
+    font-weight: bold;
+    padding:5px 10px;
+    margin:15px 0 15px 5px;
+    color:#fff;
+}
+.read .pagination a:hover{
+background-color: #999b9d;
+}
+.delete .btconfirma
+{
+    display: flex;
+}
+.delete .btconfirma a{
+    display:inline-block;
+    text-decoration: none;
+    background-color: #38b673;
+    font-weight: bold;
+    color:#fff;
+    padding:10px 15px;
+    margin:15px 15px 15px 0;
+}
+#nao{
+    background-color: red;
+}
+.delete .btconfirma a:hover{
+background-color: #32a367;
+}
+#nao:hover{
+background-color: darkred;
+}
